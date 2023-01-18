@@ -5,5 +5,5 @@ Contains academic profile, projects, skills, certificates, area of interest and 
 Only HTML and CSS is used
 
 ## Requirements
-Any text editor
-Any browser (Recommended Mozilla Firefox)
+* Any text editor
+* Any browser (Recommended Mozilla Firefox)
