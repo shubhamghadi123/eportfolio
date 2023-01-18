@@ -48,10 +48,15 @@ h1, h2 {
     text-transform: uppercase;
 }
 
-.email, .clg, .school {
+.email, .clg, .school, .github {
     display: flex;
     justify-content: space-between;
     padding-right: 10px;
+}
+
+.logo {
+    justify-content: flex-start;
+    width: 50px;
 }
 
 .clg {
@@ -63,7 +68,7 @@ h1, h2 {
     padding-top: 10px;
 }
 
-.con-email {
+.pdetail {
     border-bottom: none;
     padding-bottom: 30px;
 }
@@ -76,6 +81,15 @@ h1, h2 {
 
 .d-body li {
     padding-bottom: 5px;
+}
+
+.pdetail a {
+    text-decoration: none;
+}
+
+.pdetail a:hover {
+    letter-spacing: 2px;
+    color: black;
 }
 
 @media (max-width: 768px) {
