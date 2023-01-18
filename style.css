@@ -52,6 +52,7 @@ h1, h2 {
     display: flex;
     justify-content: space-between;
     padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 .logo {
@@ -93,7 +94,7 @@ h1, h2 {
 }
 
 @media (max-width: 768px) {
-    .email, .clg, .school {
+    .email, .clg, .school, .github {
         flex-direction: column;
     }
 
