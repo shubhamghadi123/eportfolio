@@ -93,6 +93,12 @@ h1, h2 {
     color: black;
 }
 
+@media (max-width: 800px) {
+    .inside-container {
+        width: 80%;
+    }
+}
+
 @media (max-width: 768px) {
     .email, .clg, .school, .github {
         flex-direction: column;
