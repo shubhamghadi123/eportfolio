@@ -27,6 +27,7 @@ body {
 .header {
     background: white;
     display: flex;
+    justify-content: space-around;
     top: 0px;
 }
 
@@ -140,5 +141,14 @@ h1, h2 {
     .contacts ul {
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .header img {
+        width: 160px;
+        height: 180px;
+    }
+
+    .header h1 {
+        font-size: 25px;
     }
 }
