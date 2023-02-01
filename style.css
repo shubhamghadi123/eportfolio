@@ -26,8 +26,37 @@ body {
 
 .header {
     background: white;
-    position: sticky;
+    display: flex;
     top: 0px;
+}
+
+.header img {
+    width: 200px;
+}
+
+.header-data {
+    align-self: center;
+    padding-left: 20px;
+}
+
+.header-data p, h1 {
+    margin: 0;
+}
+
+.contacts {
+    width: 80%;
+}
+
+.contacts ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.contacts a {
+    text-decoration: none;
 }
 
 .header, .d-header {
