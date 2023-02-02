@@ -70,7 +70,7 @@ body {
     margin-block-end: 0 !important;
 }
 
-.data p, .data ul, .header span {
+.data p, .data ul {
     color: rgb(100, 97, 97);
 }
 
@@ -78,7 +78,7 @@ h1, h2 {
     text-transform: uppercase;
 }
 
-.email, .clg, .school, .github {
+.clg, .school {
     display: flex;
     justify-content: space-between;
     padding-right: 10px;
@@ -99,11 +99,6 @@ h1, h2 {
     padding-top: 10px;
 }
 
-.pdetail {
-    border-bottom: none;
-    padding-bottom: 30px;
-}
-
 .d-body {
     list-style: none;
     padding: 0;
@@ -114,15 +109,6 @@ h1, h2 {
     padding-bottom: 5px;
 }
 
-.pdetail a {
-    text-decoration: none;
-}
-
-.pdetail a:hover {
-    letter-spacing: 2px;
-    color: black;
-}
-
 @media (max-width: 800px) {
     .inside-container {
         width: 80%;
@@ -130,7 +116,7 @@ h1, h2 {
 }
 
 @media (max-width: 768px) {
-    .email, .clg, .school, .github {
+    .clg, .school {
         flex-direction: column;
     }
 
