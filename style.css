@@ -109,6 +109,10 @@ h1, h2 {
     padding-bottom: 5px;
 }
 
+.lastdiv {
+    border-bottom: none;
+}
+
 @media (max-width: 800px) {
     .inside-container {
         width: 80%;
