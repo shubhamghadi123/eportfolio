@@ -58,12 +58,31 @@ body {
 
 .contacts a {
     text-decoration: none;
+    color: blue;
 }
 
-.contacts li:hover {
-    letter-spacing: 1px;
-    transform: scale(1.2);
-    
+.contacts li {
+    display: inline-block;
+    position: relative;
+}
+
+.contacts li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+    border-radius: 4px;
+    scale: 0 1;
+    transform-origin: right;
+    transition: scale 0.25s;
+}
+
+.contacts li:hover::before {
+    scale: 1;
+    transform-origin: left;
 }
 
 .header, .d-header {
