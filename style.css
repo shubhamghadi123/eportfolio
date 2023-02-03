@@ -60,6 +60,12 @@ body {
     text-decoration: none;
 }
 
+.contacts li:hover {
+    letter-spacing: 1px;
+    transform: scale(1.2);
+    
+}
+
 .header, .d-header {
     border-bottom: solid rgb(102, 99, 99);
     padding-bottom: 20px;
