@@ -33,6 +33,9 @@ body {
 
 .header img {
     width: 200px;
+    border-radius: 100%;
+    padding: 1px;
+    border: solid rgb(102, 99, 99);
 }
 
 .header-data {
@@ -155,7 +158,7 @@ h1, h2 {
 
     .header img {
         width: 160px;
-        height: 180px;
+        height: 160px;
     }
 
     .header h1 {
