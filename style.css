@@ -20,12 +20,11 @@ body {
 .inside-container {
     width: 60%;
     padding: 30px 40px 0px 40px;
-    background: white;
+    background: #d5ffcc;
     border-radius: 30px;
 }
 
 .header {
-    background: white;
     display: flex;
     justify-content: space-around;
     top: 0px;
