@@ -21,7 +21,7 @@ body {
     width: 60%;
     padding: 30px 40px 0px 40px;
     background: white;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .header {
@@ -36,6 +36,12 @@ body {
     border-radius: 100%;
     padding: 1px;
     border: solid rgb(102, 99, 99);
+    display: block;
+    transition: transform 1s;
+}
+
+.header img:hover{
+    transform: scale(0.95);
 }
 
 .header-data {
