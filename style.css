@@ -20,7 +20,7 @@ body {
 .inside-container {
     width: 60%;
     padding: 30px 40px 0px 40px;
-    background: #d5ffcc;
+    background: #dafaff;
     border-radius: 30px;
 }
 
@@ -34,7 +34,7 @@ body {
     width: 200px;
     border-radius: 100%;
     padding: 1px;
-    border: solid rgb(102, 99, 99);
+    border: solid rgb(211 111 75);
     display: block;
     transition: transform 1s;
 }
@@ -103,12 +103,13 @@ body {
     margin-block-end: 0 !important;
 }
 
-.data p, .data ul {
-    color: rgb(100, 97, 97);
+.data p, .data ul, .header-data p {
+    color: rgb(159 119 255);
 }
 
 h1, h2 {
     text-transform: uppercase;
+    color: blueviolet;
 }
 
 .clg, .school {
