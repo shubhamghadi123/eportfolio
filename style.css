@@ -64,17 +64,17 @@ body {
     padding: 0;
 }
 
-.contacts a {
+a {
     text-decoration: none;
     color: blue;
 }
 
-.contacts li {
+.contacts li, .link a {
     display: inline-block;
     position: relative;
 }
 
-.contacts li::before {
+.contacts li::before, .link a::before {
     content: '';
     position: absolute;
     left: 0;
@@ -88,7 +88,7 @@ body {
     transition: scale 0.25s;
 }
 
-.contacts li:hover::before {
+.contacts li:hover::before, .link a:hover::before {
     scale: 1;
     transform-origin: left;
 }
