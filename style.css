@@ -84,13 +84,13 @@ a {
     background-color: red;
     border-radius: 4px;
     scale: 0 1;
-    transform-origin: right;
-    transition: scale 0.25s;
+    transform-origin: center;
+    transition: scale 0.5s;
 }
 
 .contacts li:hover::before, .link a:hover::before {
     scale: 1;
-    transform-origin: left;
+    transform-origin: center;
 }
 
 .header, .d-header {
